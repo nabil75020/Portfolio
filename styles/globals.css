@@ -1,0 +1,65 @@
+:root {
+  background-color: #0a192f;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.timeline-card-titlestyles__TitleWrapper-sc-13izrht-0 {
+  color: white !important;
+  margin-top: 5px;
+}
+
+.timeline-card-titlestyles__TitleWrapper-sc-13izrht-0.active {
+  color: #0a192f !important;
+  background-color: #64ffda !important;
+}
+
+.fsWZbl {
+  display: none !important;
+}
+
+.timeline-horizontal-cardstyles__Circle-sc-18iuiou-3::after {
+  background-color: white !important;
+}
+
+svg {
+  width: fit-content;
+  height: fit-content;
+}
+
+@media screen and (max-width: 800px) {
+  .timeline-horizontalstyles__TimelineHorizontalWrapper-sc-1dd6qhe-0 {
+      width: 80vmin !important;
+  }
+  .timeline-card-titlestyles__TitleWrapper-sc-13izrht-0 {
+      font-size: 3vmin !important;
+      color: white !important;
+  }
+  .timeline-card-contentstyles__TimelineItemContentWrapper-sc-d7qjm1-0 {
+      width: 75% !important;
+  }
+}
+
+.timelinestyle__TimelineContentRender-sc-cif21b-5 {
+  overflow: hidden;
+}
+
+.timelinestyle__TimelineControlContainer-sc-cif21b-4 {
+  display: none !important;
+}
+
+.timeline-verticalstyles__TimelineVerticalWrapper-sc-1427v1d-0 {
+  margin-top: 7vmin;
+}

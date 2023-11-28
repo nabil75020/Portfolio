@@ -1,0 +1,59 @@
+.All {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 95vh;
+}
+
+.Container {
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 80%;
+}
+
+
+.Container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.All h1 {
+    color: #ffffff;
+    font-size: 4vmin;
+    width: 75%;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-family: 'Calibre','Inter','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif
+}
+
+
+.All span {
+    color: #46c4a4;
+}
+
+@media screen and (max-width: 800px) {
+    .jzEJVB {
+        width: 80vmin !important;
+    }
+    .Container2 {
+        display: none;
+    }
+    .Container {
+        display: flex;
+    }
+    .All {
+        height: 55vh;
+    }
+}
+    

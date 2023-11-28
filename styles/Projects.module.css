@@ -1,0 +1,73 @@
+.Container {
+    margin-top: 15vmin;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 7vmin;
+    margin-bottom: 5vmin;
+}
+
+@media screen and (max-width: 1200px) {
+    .Container {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .All {
+        margin-top: 45vmin !important;
+    }
+    .Container {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .All {
+        margin-top: 30vmin !important;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .All {
+        margin-top: 40vmin !important;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .All {
+        margin-top: 10vmin !important;
+    }
+    .Container {
+        width: 100% !important;
+    }
+}
+
+.All {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8vmin;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.Title {
+    color: #ffffff;
+    font-size: 4vmin;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 4vmin;
+    font-family: 'Calibre','Inter','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif
+}
+
+
+
+@media screen and(max-width: 1625px) {
+    .Container {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
