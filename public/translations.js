@@ -34,7 +34,7 @@ export const fr = {
   Project_2_1: "Bubble Tea",
   Project_2_2:
     "Création d'un site e-commerce avec PhP, la plupart des fonctionnalités que l'on peut trouver sur un magasin en ligne classique sont présentes, (panier, système de connexion et d'inscription, filtrage des produits par catégorie...)",
-  Project_3_1: "API TMN VOITURES",
+  Project_3_1: "API PRODUCTS",
   Project_3_2:
     "Création d'une API avec toutes les fonctionnalités de base (routes, contrôleurs...). Utilisation de Sequelize pour la modélisation de la base de données.",
   Project_4_1: "CODECAMP #1",
@@ -83,7 +83,7 @@ export const en = {
   Project_2_1: "BUBBLE TEA",
   Project_2_2:
     "Creation of an e-commerce website with PHP and Laravel, featuring most functionalities commonly found on a typical online store, including a shopping cart, login and registration system, and product filtering by category.",
-  Project_3_1: "TMN CARS API",
+  Project_3_1: "PRODUCTS API",
   Project_3_2:
     "Creating an API with all the basic features (routes, controllers...). Using Sequelize for database modeling.",
   Project_4_1: "CODECAMP #1",
